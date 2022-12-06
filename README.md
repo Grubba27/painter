@@ -8,12 +8,16 @@ created this just to use in my toy lang: ``cat-lang`` check it out [here](https:
 ## How to use ?
 ```go
 import (
-    paint "github/painter"
+    "github.com/Grubba27/painter"
 )
 
 func func main() {
     fmt.Printf(paint.InPurple("Some Text"))
 }
+
+it will produce the follwing output:
+
+![some text in purple](./name.png)
 
 ```
 ### Important notes
