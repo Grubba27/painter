@@ -1,4 +1,4 @@
-package painter
+package main
 
 import "runtime"
 
