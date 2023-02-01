@@ -5,7 +5,9 @@
 This is very simple almost toy based solution for coloring your terminal, I've 
 created this just to use in my toy lang: ``cat-lang`` check it out [here](https://github.com/Grubba27/cat-lang)
 
+
 ## How to use ?
+
 ```go
 import (
     "github.com/Grubba27/painter"
@@ -15,11 +17,14 @@ func func main() {
     fmt.Printf(paint.InPurple("Some Text"))
 }
 
+```
+
 it will produce the follwing output:
 
 ![some text in purple](./name.png)
 
-```
+
+
 ### Important notes
 
 It returns a ready to use in terminal string, if you use ``%s`` notation it will not produce a nice result. 
